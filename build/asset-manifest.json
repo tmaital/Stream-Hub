@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8822944e.chunk.css",
+    "main.js": "/static/js/main.fa77e8f3.chunk.js",
+    "main.js.map": "/static/js/main.fa77e8f3.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.5ff306f6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.5ff306f6.js.map",
+    "static/js/2.eb9a4b8e.chunk.js": "/static/js/2.eb9a4b8e.chunk.js",
+    "static/js/2.eb9a4b8e.chunk.js.map": "/static/js/2.eb9a4b8e.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.95a2fd192991ebb682b8d30b5f6e8eaa.js": "/precache-manifest.95a2fd192991ebb682b8d30b5f6e8eaa.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.8822944e.chunk.css.map": "/static/css/main.8822944e.chunk.css.map",
+    "static/js/2.eb9a4b8e.chunk.js.LICENSE.txt": "/static/js/2.eb9a4b8e.chunk.js.LICENSE.txt",
+    "static/media/streamhub_logo.png": "/static/media/streamhub_logo.1d6ba804.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5ff306f6.js",
+    "static/js/2.eb9a4b8e.chunk.js",
+    "static/css/main.8822944e.chunk.css",
+    "static/js/main.fa77e8f3.chunk.js"
+  ]
+}

@@ -1,0 +1,74 @@
+.days-panel{
+    display: flex;
+    width: 100%;
+}
+
+.days-panel-container{
+width: 100%;
+}
+
+.days-panel-days-title{
+    color: black;
+    font-weight: 600;
+}
+
+.days-panel-dates{
+    display: flex;
+    grid-row: 1;
+    grid-column: 2;
+    align-content: center;
+    justify-content: space-around;
+    font-size: min(0.7vw, 8pt) ;
+    border-bottom: none;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.days-panel-day-regular{
+    display: flex;
+    font-weight: 300;
+    border-bottom: none;
+    padding-bottom: 0;
+    color: #808080;
+    cursor: pointer;
+}
+
+.days-panel-day-regular:hover{
+    color: black;
+}
+
+.days-panel-day-bold{
+    display: flex;
+    font-weight: 300;
+    border-bottom: none;
+    padding-bottom: 0;
+    color: black;
+    cursor: default;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: 2px rgb(0, 0, 0) solid;
+}
+
+/* RESPONSIVE QUERIES */
+
+@media screen and (max-width: 480px) {
+
+    .days-panel{
+        width: 80vw;
+        height: 25px;
+        overflow-y: hidden;
+        z-index: 1;
+
+    }
+
+    .days-panel-dates{
+        font-size: min(2.2vw, 15pt) ;
+        overflow-x: scroll;
+        width: 1000px;
+        justify-content: space-between;
+    }
+}
+
+
